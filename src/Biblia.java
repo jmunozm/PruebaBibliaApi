@@ -7,27 +7,26 @@
  *
  */
 public class Biblia {
-	String biblia;
-	String titulo;
-	String descripcion;
-	
-	public String getBiblia() {
-		return biblia;
+	String bible;
+	String title;
+	String description;
+	public String getBible() {
+		return bible;
 	}
-	public void setBiblia(String biblia) {
-		this.biblia = biblia;
+	public void setBible(String bible) {
+		this.bible = bible;
 	}
-	public String getTitulo() {
-		return titulo;
+	public String getTitle() {
+		return title;
 	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+	public void setTitle(String title) {
+		this.title = title;
 	}
-	public String getDescripcion() {
-		return descripcion;
+	public String getDescription() {
+		return description;
 	}
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 }
 
