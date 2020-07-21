@@ -1,3 +1,11 @@
+package jarroba;
+
+import java.util.List;
+
+public class FootballPlayer {
+
+    private int dorsal;
+    private String name;
     private List demarcation;
     private String team;
 
