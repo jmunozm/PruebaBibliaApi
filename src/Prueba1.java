@@ -64,7 +64,7 @@ public class Prueba1 {
 	        
 			//System.out.println("La respuesta es:\n" + respuesta);
 		} catch (Exception e) {
-			// Manejar excepción
+			// Manejar excepciï¿½n
 			e.printStackTrace();
 		}
 	}
@@ -75,10 +75,10 @@ public class Prueba1 {
 		// Crear un objeto de tipo URL
 		URL url = new URL(urlParaVisitar);
 
-		// Abrir la conexión e indicar que será de tipo GET
+		// Abrir la conexiï¿½n e indicar que serï¿½ de tipo GET
 		HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
 		conexion.setRequestMethod("GET");
-		// Búferes para leer
+		// Bï¿½feres para leer
 		BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
 		String linea;
 		// Mientras el BufferedReader se pueda leer, agregar contenido a resultado
